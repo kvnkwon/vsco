@@ -1,0 +1,64 @@
+.slides,
+.slides p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.slides h1,
+.slides h2,
+.slides h3,
+.slides h4,
+.slides h5,
+.slides h6 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+}
+
+.slides .slides-form {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 600;
+}
+
+.slides .button {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 700;
+}
+
+.slides,
+.slides nav {
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+/* global */
+hr {
+  border-top: 5px solid #2F30B8;
+  width: 120px;
+  margin: 2em 0;
+}
+
+.mid-hr {
+  margin: 2em auto;
+}
+
+.primary {
+  background-color: #456DFF !important;
+}
+
+.alert-link {
+  color: #FFE985 !important;
+}
+
+.white-link {
+  color: #fff !important;
+}
+
+/* nav */
+
+.my-nav {
+  padding-left: calc(8% + 15px);
+  padding-right: calc(8% + 15px);
+}
+
+.panel svg {
+  width: 80px;
+  height: 80px;
+}

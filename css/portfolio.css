@@ -1,0 +1,227 @@
+/* Global */
+.space-top  {
+   margin-top: 5em !important;
+}
+
+.bullets li {
+  margin: 2em 0;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.grid li {
+  text-align: left;
+}
+
+.section-title h2 {
+  max-width: 50%;
+  color: #7E7E7E;
+}
+
+.section-content {
+  max-width: 55% !important;
+}
+
+p {
+  font-size: 17px;
+  margin-bottom: 1em;
+}
+
+.content-wrap {
+  padding-left: calc(8% + 15px);
+  padding-right: calc(8% + 15px);
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+}
+
+.big-section {
+  padding-top: 5em;
+}
+
+.section-narrow-content {
+  max-width: 66%;
+  display: block;
+  margin: 0 auto;
+}
+
+.content-block {
+  margin: 3.5em 0;
+}
+
+.content-block img {
+  display: block;
+  width: 100%;
+  margin: 2.5em auto;
+}
+
+.content-block h2 {
+  font-size: 28px;
+}
+
+.image-block {
+  padding: 3em 0;
+  text-align: center;
+}
+
+.image-block p {
+  color: #fff;
+  margin-top: 1em;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.portfolio-image {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.slide a {
+  color: #456DFF;
+}
+
+.image-hero {
+  margin-top: -5px;
+  height: 700px;
+  background-image: url(../assets/img/vsco-header.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.image-desc {
+  opacity: 0.8;
+  display: block;
+  width: 80%;
+  font-size: 14px;
+  margin-top: -2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.5em;
+  text-align: center;
+  font-weight: 700 !important;
+}
+
+.quote-section {
+  margin-top: 2em;
+}
+
+.quote-section p {
+  margin-bottom: 2em;
+}
+
+/* Header */
+
+.company-info {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.job-col p {
+  font-size: 15px;
+  margin-bottom: 1em;
+}
+
+.job-col .details-title {
+  font-weight: 700;
+}
+
+.portfolio-header .container {
+  height: 60vh;
+}
+
+.portfolio-header .header-wrap {
+  padding-left: calc(8% + 15px);
+  padding-right: calc(8% + 15px);
+  padding-top: 10%;
+  padding-bottom: 5em;
+}
+
+
+/* vsco */
+
+.scenario-grid {
+  margin-bottom: 3.5em;
+}
+
+.scenario img {
+  margin-bottom: 1em;
+}
+
+.scenario h3 {
+  text-align: center;
+  opacity: 0.5;
+}
+
+.scenario p {
+  font-size: 14px;
+}
+
+.result-graphic {
+  max-width: 400px;
+}
+
+@media (min-width:320px) and (max-width: 480px) {
+  .portfolio-header .header-wrap {
+    padding-top: 30%;
+  }
+
+  .section-title h2 {
+    max-width: 100%;
+    font-size: 21px;
+    margin-bottom: 1em;
+  }
+
+  .section-content {
+    max-width: 100% !important;
+  }
+
+  .big-section {
+    padding-top: 3.5em;
+  }
+
+  .section-narrow-content {
+    max-width: 100%;
+  }
+
+  .portfolio-image {
+    width: 80%;
+  }
+}
+
+@media (min-width:481px) and (max-width: 1022px) {
+  .big-section {
+    padding-top: 3.5em;
+  }
+
+  .portfolio-header .header-wrap {
+    padding-top: 20%;
+  }
+
+  .section-title h2 {
+    font-size: 24px;
+  }
+
+  .section-narrow-content {
+    max-width: 100%;
+  }
+}
+
+@media (min-width:481px) and (max-width: 1350px) {
+  .big-section {
+    padding-top: 3.5em;
+  }
+
+  .portfolio-header .header-wrap {
+    padding-top: 15%;
+  }
+
+  .section-title h2 {
+    font-size: 28px;
+  }
+
+  .section-narrow-content {
+    max-width: 80%;
+  }
+}

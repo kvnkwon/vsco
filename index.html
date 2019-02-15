@@ -1,0 +1,372 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="description" content="Portfolio of Kevin Kwon: Product & UI Designer">
+  <meta name="author" content="Kevin Kwon">
+
+	<!-- Page Title -->
+	<title>VSCO | Kevin Kwon Portfolio</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+
+	<!-- Compressed Styles -->
+	<link href="css/slides.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Custom Styles -->
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="css/portfolio.css" rel="stylesheet" type="text/css">
+
+	<!-- jQuery 3.3.1 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Compressed Scripts -->
+	<script src="js/slides.min.js" type="text/javascript"></script>
+
+	<!-- Custom Scripts -->
+	<script src="js/main.js" type="text/javascript"></script>
+
+	<!-- Fonts and Material Icons -->
+	<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Rubik:400,700|Roboto+Mono:400,700|Open+Sans:400,700|Material+Icons"/>
+
+</head>
+<body class="slides noPreload scroll animated">
+
+  <!-- SVG Library -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+    <symbol id="close" viewBox="0 0 30 30"><path d="M15 0c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15zm5.7 19.3c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3s-.5-.1-.7-.3l-4.3-4.3-4.3 4.3c-.2.2-.4.3-.7.3s-.5-.1-.7-.3c-.4-.4-.4-1 0-1.4l4.3-4.3-4.3-4.3c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l4.3 4.3 4.3-4.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-4.3 4.3 4.3 4.3z"/></symbol>
+
+    <symbol id="close-small" viewBox="0 0 11 11"><path d="M6.914 5.5l3.793-3.793c.391-.391.391-1.023 0-1.414s-1.023-.391-1.414 0l-3.793 3.793-3.793-3.793c-.391-.391-1.023-.391-1.414 0s-.391 1.023 0 1.414l3.793 3.793-3.793 3.793c-.391.391-.391 1.023 0 1.414.195.195.451.293.707.293s.512-.098.707-.293l3.793-3.793 3.793 3.793c.195.195.451.293.707.293s.512-.098.707-.293c.391-.391.391-1.023 0-1.414l-3.793-3.793z"/></symbol>
+
+    <symbol id="arrow-left" viewBox="0 0 29 56"><path d="M28.7.3c.4.4.4 1 0 1.4l-26.3 26.3 26.3 26.3c.4.4.4 1 0 1.4-.4.4-1 .4-1.4 0l-27-27c-.4-.4-.4-1 0-1.4l27-27c.3-.3 1-.4 1.4 0z"/></symbol>
+
+    <symbol id="arrow-right" viewBox="0 0 29 56"><path d="M.3 55.7c-.4-.4-.4-1 0-1.4l26.3-26.3-26.3-26.3c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l27 27c.4.4.4 1 0 1.4l-27 27c-.3.3-1 .4-1.4 0z"/></symbol>
+
+    <symbol id="back" viewBox="0 0 20 20"><path d="M2.3 10.7l5 5c.4.4 1 .4 1.4 0s.4-1 0-1.4l-3.3-3.3h11.6c.6 0 1-.4 1-1s-.4-1-1-1h-11.6l3.3-3.3c.4-.4.4-1 0-1.4-.2-.2-.4-.3-.7-.3s-.5.1-.7.3l-5 5c-.2.2-.3.5-.3.7 0 .2.1.5.3.7z"/></symbol>
+
+    <symbol id="menu" viewBox="0 0 18 18"><path d="M16 5h-14c-.6 0-1-.4-1-1 0-.5.4-1 1-1h14c.5 0 1 .4 1 1s-.4 1-1 1zm-14 5h14c.5 0 1-.4 1-1 0-.5-.4-1-1-1h-14c-.6 0-1 .4-1 1s.4 1 1 1zm14 3h-14c-.5 0-1 .4-1 1 0 .5.4 1 1 1h14c.5 0 1-.4 1-1s-.4-1-1-1z"/></symbol>
+
+    <symbol id="share" viewBox="0 0 18 18"><path d="M16 8c-.6 0-1 .4-1 1v6h-12v-6c0-.6-.4-1-1-1s-1 .4-1 1v6c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-6c0-.6-.4-1-1-1zm-2.3-2.3c.4-.4.4-1 0-1.4l-4-4c-.4-.4-1-.4-1.4 0l-4 4c-.4.4-.4 1 0 1.4s1 .4 1.4 0l2.3-2.3v7.6c0 .6.4 1 1 1s1-.4 1-1v-7.6l2.3 2.3c.4.4 1 .4 1.4 0z"/></symbol>
+
+    <symbol id="arrow-down" viewBox="0 0 24 24"><path d="M12 18c-.2 0-.5-.1-.7-.3l-11-10c-.4-.4-.4-1-.1-1.4.4-.4 1-.4 1.4-.1l10.4 9.4 10.3-9.4c.4-.4 1-.3 1.4.1.4.4.3 1-.1 1.4l-11 10c-.1.2-.4.3-.6.3z"/></symbol>
+
+    <symbol id="arrow-up" viewBox="0 0 24 24"><path d="M11.9 5.9c.2 0 .5.1.7.3l11 10c.4.4.4 1 .1 1.4-.4.4-1 .4-1.4.1l-10.4-9.4-10.3 9.4c-.4.4-1 .3-1.4-.1-.4-.4-.3-1 .1-1.4l11-10c.1-.2.4-.3.6-.3z"/></symbol>
+
+    <symbol id="arrow-top" viewBox="0 0 18 18"><path d="M15.7 7.3l-6-6c-.4-.4-1-.4-1.4 0l-6 6c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0l4.3-4.3v11.6c0 .6.4 1 1 1s1-.4 1-1v-11.6l4.3 4.3c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4z"/></symbol>
+
+    <symbol id="play" viewBox="0 0 30 30"><path d="M7 30v-30l22 15z"/></symbol>
+
+    <symbol id="chat" viewBox="0 0 18 18"><path d="M5,17c-0.2,0-0.3,0-0.4-0.1C4.2,16.7,4,16.4,4,16v-2H2c-1.1,0-2-0.9-2-2V3c0-1.1,0.9-2,2-2h14c1.1,0,2,0.9,2,2v9 c0,1.1-0.9,2-2,2H9.3l-3.7,2.8C5.4,16.9,5.2,17,5,17z M2,12h3.5C5.8,12,6,12.2,6,12.5V14l2.4-1.8C8.6,12.1,8.8,12,9,12h7V3H2V12z M13,7H5C4.4,7,4,6.6,4,6s0.4-1,1-1h8c0.6,0,1,0.4,1,1S13.6,7,13,7z M13,10H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h8c0.6,0,1,0.4,1,1 S13.6,10,13,10z"/></symbol>
+
+    <symbol id="mail" viewBox="0 0 18 18"><path d="M16 2h-14c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-10c0-1.1-.9-2-2-2zm0 2v.5l-7 4.3-7-4.4v-.4h14zm-14 10v-7.2l6.5 4c.1.1.3.2.5.2s.4-.1.5-.2l6.5-4v7.2h-14z"/></symbol>
+
+    <symbol id="sound-on" viewBox="0 0 18 18"><path d="M8.5,0.1C8.1-0.1,7.7,0,7.4,0.2L3.7,3H2C0.9,3,0,3.9,0,5v6c0,1.1,0.9,2,2,2h1.7l3.7,2.8C7.6,15.9,7.8,16,8,16 c0.2,0,0.3,0,0.4-0.1C8.8,15.7,9,15.4,9,15V1C9,0.6,8.8,0.3,8.5,0.1z M7,13l-2.4-1.8C4.4,11.1,4.2,11,4,11l-2,0l0-6h2 c0.2,0,0.4-0.1,0.6-0.2L7,3V13z M11.7,9.9l0.7,1.9C13.9,11.2,15,9.7,15,8c0-1.7-1.1-3.2-2.7-3.8l-0.7,1.9C12.5,6.4,13,7.2,13,8C13,8.9,12.5,9.6,11.7,9.9z M12.2,1.1l-0.3,2C14.3,3.5,16,5.6,16,8s-1.8,4.5-4.2,4.9l0.3,2C15.6,14.3,18,11.4,18,8C18,4.6,15.6,1.7,12.2,1.1z"/></symbol>
+
+    <symbol id="sound-off" viewBox="0 0 18 18"><path d="M15.9,8l1.8-1.8c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-1.8,1.8l-1.8-1.8c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4L13.1,8l-1.8,1.8 c-0.4,0.4-0.4,1,0,1.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l1.8-1.8l1.8,1.8c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L15.9,8z M8.5,0.1C8.1-0.1,7.7,0,7.4,0.2L3.7,3H2C0.9,3,0,3.9,0,5v6c0,1.1,0.9,2,2,2h1.7l3.7,2.8C7.6,15.9,7.8,16,8,16 c0.2,0,0.3,0,0.4-0.1C8.8,15.7,9,15.4,9,15V1C9,0.6,8.8,0.3,8.5,0.1z M7,13l-2.4-1.8C4.4,11.1,4.2,11,4,11l-2,0l0-6h2 c0.2,0,0.4-0.1,0.6-0.2L7,3V13z"/></symbol>
+
+    <!-- social -->
+    <symbol id="apple" viewBox="-1 1 24 24"><path d="M17.6 13.8c0-3 2.5-4.5 2.6-4.6-1.4-2.1-3.6-2.3-4.4-2.4-1.9-.2-3.6 1.1-4.6 1.1-.9 0-2.4-1.1-4-1-2 0-3.9 1.2-5 3-2.1 3.7-.5 9.1 1.5 12.1 1 1.5 2.2 3.1 3.8 3 1.5-.1 2.1-1 3.9-1s2.4 1 4 1 2.7-1.5 3.7-2.9c1.2-1.7 1.6-3.3 1.7-3.4-.1-.1-3.2-1.3-3.2-4.9zm-3.1-9c.8-1 1.4-2.4 1.2-3.8-1.2 0-2.7.8-3.5 1.8-.8.9-1.5 2.3-1.3 3.7 1.4.1 2.8-.7 3.6-1.7z"/></symbol>
+
+    <symbol id="dribbble" viewBox="0 0 24 24"><path d="M12 0c-6.7 0-12 5.3-12 12s5.3 12 12 12 12-5.3 12-12-5.3-12-12-12zm7.9 5.7c1.3 1.7 2.1 3.9 2.3 6.1-.4-.1-2.4-.4-4.7-.4-.8 0-1.5 0-2.3.1 0-.1-.1-.3-.3-.5l-.7-1.5c3.7-1.4 5.3-3.4 5.7-3.8zm-7.9-3.8c2.5 0 4.9.9 6.7 2.5-.3.4-1.9 2.3-5.2 3.6-1.6-2.9-3.3-5.3-3.7-5.9.6-.1 1.4-.2 2.2-.2zm-4.4 1c.4.6 2.1 3 3.7 5.8-4.4 1.2-8.2 1.2-9.2 1.2h-.1c.8-3.1 2.9-5.6 5.6-7zm-5.7 9.1v-.3h.3c1.2 0 5.6-.1 10.1-1.5l.8 1.6c-.1 0-.3 0-.4.1-5.1 1.6-7.9 6-8.3 6.7-1.6-1.7-2.5-4.1-2.5-6.6zm10.1 10.1c-2.3 0-4.4-.8-6.1-2.1.3-.5 2.4-4.4 7.9-6.3 1.3 3.6 2 6.7 2.1 7.6-1.2.6-2.6.8-3.9.8zm5.7-1.8c-.1-.8-.7-3.6-2-7.1.7-.1 1.3-.1 2-.1 2.1 0 3.7.4 4.1.5-.3 2.8-1.8 5.2-4.1 6.7z"/></symbol>
+
+    <symbol id="facebook" viewBox="0 0 24 24"><path d="M24 1.3v21.3c0 .7-.6 1.3-1.3 1.3h-6.1v-9.3h3.1l.5-3.6h-3.6v-2.2c0-1.1.3-1.8 1.8-1.8h1.9v-3.2c-.3 0-1.5-.1-2.8-.1-2.8 0-4.7 1.7-4.7 4.8v2.7h-3.1v3.6h3.1v9.2h-11.5c-.7 0-1.3-.6-1.3-1.3v-21.4c0-.7.6-1.3 1.3-1.3h21.3c.8 0 1.4.6 1.4 1.3z"/></symbol>
+
+    <symbol id="facebook2" viewBox="0 0 512 512"><path d="M288 176v-64c0-17.664 14.336-32 32-32h32v-80h-64c-53.024 0-96 42.976-96 96v80h-64v80h64v256h96v-256h64l32-80h-96z"/></symbol>
+
+    <symbol id="fb-like" viewBox="0 0 20 20"><path d="M0 8v12h5v-12h-5zm2.5 10.8c-.4 0-.8-.3-.8-.8 0-.4.3-.8.8-.8s.8.3.8.8c0 .4-.4.8-.8.8zm3.5-.8h9.5c1.1 0 1.7-1 1.7-1.7 0-.3-.4-1-.4-1 1.4-.3 1.7-1.2 1.7-1.7-.1-.5-.3-.9-.5-1 1-.4 1.5-1.1 1.4-1.9-.1-.8-1-1.5-1-1.5 1-.6.9-1.5.9-1.5-.3-1.3-1.5-1.7-1.7-1.7h-5.6s.3-.5.3-2.4-1.3-3.6-2.6-3.6c0 0-.7.1-1 .3v3.5l-2.7 4.4v9.8z"/></symbol>
+
+    <symbol id="instagram" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3.3"/><path d="M13,0H7C2.2,0,0,2.2,0,7v6c0,4.8,2.1,7,7,7h6c4.8,0,7-2.2,7-7V7C20,2.2,17.9,0,13,0z M10,15.1c-2.8,0-5.1-2.3-5.1-5.1 S7.2,4.9,10,4.9s5.1,2.3,5.1,5.1S12.8,15.1,10,15.1z M15.3,5.9c-0.7,0-1.2-0.5-1.2-1.2c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2 C16.5,5.3,16,5.9,15.3,5.9z"/></symbol>
+
+    <symbol id="behance" viewBox="0 0 511.958 511.958"><path d="M210.624 240.619c10.624-5.344 18.656-11.296 24.16-17.728 9.792-11.584 14.624-26.944 14.624-45.984 0-18.528-4.832-34.368-14.496-47.648-16.128-21.632-43.424-32.704-82.016-33.28h-152.896v312.096h142.56c16.064 0 30.944-1.376 44.704-4.192 13.76-2.848 25.664-8.064 35.744-15.68 8.96-6.624 16.448-14.848 22.4-24.544 9.408-14.656 14.112-31.264 14.112-49.76 0-17.92-4.128-33.184-12.32-45.728-8.288-12.544-20.448-21.728-36.576-27.552zm-147.552-90.432h68.864c15.136 0 27.616 1.632 37.408 4.864 11.328 4.704 16.992 14.272 16.992 28.864 0 13.088-4.32 22.24-12.864 27.392-8.608 5.152-19.776 7.744-33.472 7.744h-76.928v-68.864zm108.896 198.24c-7.616 3.68-18.336 5.504-32.064 5.504h-76.832v-83.232h77.888c13.568.096 24.128 1.888 31.68 5.248 13.44 6.08 20.128 17.216 20.128 33.504 0 19.2-6.912 32.128-20.8 38.976zM327.168 110.539h135.584v38.848h-135.584zM509.856 263.851c-2.816-18.08-9.024-33.984-18.688-47.712-10.592-15.552-24.032-26.944-40.384-34.144-16.288-7.232-34.624-10.848-55.04-10.816-34.272 0-62.112 10.72-83.648 32-21.472 21.344-32.224 52.032-32.224 92.032 0 42.656 11.872 73.472 35.744 92.384 23.776 18.944 51.232 28.384 82.4 28.384 37.728 0 67.072-11.232 88.032-33.632 13.408-14.144 20.992-28.064 22.656-41.728h-62.464c-3.616 6.752-7.808 12.032-12.608 15.872-8.704 7.04-20.032 10.56-33.92 10.56-13.216 0-24.416-2.912-33.76-8.704-15.424-9.28-23.488-25.536-24.512-48.672h170.464c.256-19.936-.384-35.264-2.048-45.824zm-166.88 5.984c2.24-15.008 7.68-26.912 16.32-35.712 8.64-8.768 20.864-13.184 36.512-13.216 14.432 0 26.496 4.128 36.32 12.416 9.696 8.352 15.168 20.48 16.288 36.512h-105.44z"/></symbol>
+
+    <symbol id="linkedin" viewBox="0 0 24 24"><path d="M5.9 21.9h-4.7v-14.2h4.7v14.2zm-2.3-16.1c-1.6 0-2.6-1.1-2.6-2.5s1-2.5 2.7-2.5c1.6 0 2.6 1 2.6 2.5-.1 1.4-1.2 2.5-2.7 2.5zm19.2 16.1h-4.7v-7.6c0-2-.7-3.3-2.3-3.3-1.3 0-2.1.9-2.5 1.7-.1.3-.1.8-.1 1.2v7.9h-4.7v-14.1h4.7v2c.7-.9 1.7-2.3 4.3-2.3 3.1 0 5.5 2.1 5.5 6.4v8.2h-.2z"/></symbol>
+
+    <symbol id="medium" viewBox="0 0 130.8 104"><path d="M15.5 21.2c.2-1.6-.5-3.2-1.7-4.3l-12.1-14.7v-2.2h38l29.3 64.4 25.8-64.4h36.2v2.2l-10.5 10c-.9.7-1.3 1.8-1.2 2.9v73.7c0 1.1.3 2.2 1.2 2.9l10.2 10v2.2h-51.3v-2.2l10.6-10.2c1-1 1-1.3 1-2.9v-59.6l-29.4 74.7h-4l-34.2-74.7v50.3c0 2.2.4 4.2 1.9 5.7l13.7 16.8v2.2h-39v-2.2l13.8-16.7c1.5-1.5 1.8-3.3 1.8-5.7l-.1-58.2z"/></symbol>
+
+  </svg>
+
+	<!-- Panel Top #01 -->
+  <nav class="panel top forceMobileView firstSlideOnly my-nav">
+    <div class="sections desktop">
+      <div class="left">
+        <a href="http://kevinkwon.io" title="Kevin Kwon">
+          <img src="assets/img/logo-borderless.svg" alt="Kevin Kwon">
+        </a>
+      </div>
+      <div class="right">
+        <ul class="menu">
+          <li><a href="http://kevinkwon.io/#aboutSlide">About</a></li>
+          <li><a href="http://kevinkwon.io/#workSlide">Work</a></li>
+        </ul>
+        <a class="button blue gradient" href="http://kevinkwon.io/#contactSlide">Say hello</a>
+      </div>
+    </div>
+    <div class="sections compact hidden">
+      <div class="left">
+        <a href="#" title="Kevin Kwon">
+          <img src="assets/img/logo-borderless.svg" alt="Kevin Kwon">
+        </a>
+      </div>
+      <div class="right"><span class="button actionButton primary sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
+    </div>
+  </nav>
+
+
+  <!-- Sidebar -->
+  <nav class="sidebar" data-sidebar-id="1">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <a href="#" class="logo"><svg width="37" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-icon"></use></svg></a>
+      <ul class="mainMenu margin-top-3">
+        <li><a href="http://kevinkwon.io/#aboutSlide">About</a></li>
+        <li><a href="http://kevinkwon.io/#workSlide">Work</a></li>
+        <li><a href="http://kevinkwon.io/resume">My Resume</a></li>
+        <li><a href="http://kevinkwon.io/#contactSlide">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav class="side stroke">
+    <div class="navigation">
+      <ul></ul>
+    </div>
+  </nav>
+
+	<section class="slide blackSlide portfolio-header">
+		<div class="content">
+			<div class="container">
+				<div class="header-wrap">
+					<ul class="grid">
+						<li class="col-tablet-1-1 col-4-12">
+							<h1>VSCO</h1>
+						</li>
+						<li class="col-tablet-1-1 col-8-12 section-content">
+							<div class="header-description">
+								<h3>
+									More than just filters. A UX case study on VSCO's iOS App.
+								</h3>
+								<p>This piece is also published on <a href="https://uxdesign.cc/vsco-a-ux-case-study-f5ccd35c725a">Medium</a> via UX Collective! Check it out.</p>
+							</div>
+							<hr>
+							<p class="company-info">
+								VSCO, also called VSCO Cam, is a photography app where you can create an account and upload or take photos, edit and add filters, and share them with other VSCO users or on other social media sites.
+							</p>
+							<p class="company-info">
+								<i>*** I am not affiliated with VSCO. I was just interested to see if I could help boost the user experience of this cool photography app!</i>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="image-hero">
+	</div>
+
+	<section class="slide whiteSlide vsco-intro">
+		<div class="content">
+			<div class="container">
+				<div class="content-wrap">
+					<div class="section-narrow-content">
+						<div class="content-block">
+							<h1>VSCO, More Than Just Filters</h1>
+							<h3>A UX Case Study on VSCO’s iOS App</h3>
+							<hr>
+							<p>It all started when I noticed my friend jumping between different apps making edits and applying filters, until finally switching to Instagram to post the final photo of our dinner. It seemed he really liked the filters from an app called VSCO, but could not be bothered to use the app’s other features that would’ve saved him from having to switch to different apps. This got me thinking: <strong>Why is he bringing the photo to another app when he can do all the same edits on the VSCO app?</strong></p>
+						</div>
+						<div class="content-block">
+							<h2>Identifying the Problem</h2>
+							<img src="assets/img/icons.jpg" alt="">
+							<p class="image-desc">There are even more icons in the edit menu in addition to the ones above.</p>
+							<p>After browsing through the app, I could start to see why my friend was hesitant to use the app’s full features. A pain point I discovered was the lack of labels for icons especially during the photo taking and editing process. There are some icons that are recognizable without a label, however, most of the icons that VSCO decided to use were confusing and required a lot of guesswork that left me quitting out of the app before getting to any meaningful results.</p>
+							<p><strong>Multiple icons without labels lead to confusion, frustration, and ultimately poor user experience.</strong> It turns out that I’m not the only user out there suffering from this problem.</p>
+							<div class="quote-section">
+								<p>Here are some reviews from the app store:</p>
+								<blockquote><i>“This app is stressful to use.” — Alovesd</i></blockquote>
+								<blockquote><i>“Unmatched film presets plagued by poor UI/UX…Everything is so minimal to the point where it isn’t intuitive, and it ruins the experience.” — David_Burns_Red</i></blockquote>
+								<blockquote><i>“Tremendous potential, but continuously lacks usability.” — rik.venture</i></blockquote>
+							</div>
+							<img src="assets/img/vsco-nav.jpg" alt="">
+							<p class="image-desc">What are those?!</p>
+						</div>
+						<div class="content-block">
+							<h3>Persona and Task Flow</h3>
+							<p>In order to help me find problems with the app, I created a persona named Charles based off my assumptions of what a typical user of VSCO looks like. Charles is 19 years old, a casual photographer, and is currently a student in college. He wants to take a photo, add some cool edits and filters, then share it with his friends.</p>
+							<p><strong>Below is the ideal scenario for Charles:</strong></p>
+							<ul class="grid scenario-grid">
+								<li class="col-tablet-1-1 col-4-12 scenario">
+									<img src="assets/img/scenario-1.jpg" alt="">
+									<h3>- 1 -</h3>
+									<p>Charles takes a picture of the awesome burger he's having and wants to apply his favorite filter from the VSCO app while also making some minor photo adjustments.</p>
+								</li>
+								<li class="col-tablet-1-1 col-4-12 scenario">
+									<img src="assets/img/scenario-2.jpg" alt="">
+									<h3>- 2 -</h3>
+									<p>After applying a filter, Charles decides he wants to adjust the saturation a bit. He goes to the photo edit feature and is able to find the saturation settings with ease.</p>
+								</li>
+								<li class="col-tablet-1-1 col-4-12 scenario">
+									<img src="assets/img/scenario-3.jpg" alt="">
+									<h3>- 3 -</h3>
+									<p>Charles saves his photo and shares it on Instagram via the VSCO app. All his friends like his photo and he is very happy.</p>
+								</li>
+							</ul>
+							<p>Using the ideal scenario above which encompasses the journey of a user wanting to apply cool edits to his photo before sharing with friends, <strong>I created a task flow to help me see how a user gets to a positive outcome with his or her initial goal/motivation.</strong></p>
+							<img src="assets/img/task-flow.png" alt="">
+							<p>Using the task flow, it was clear to me that I needed to emphasize making the core features; taking a photo, editing, and sharing it as smooth as possible by fixing any pain points in that process. As the core features, they should be delivering an optimal user experience in order for the app to succeed and increase user engagement.</p>
+						</div>
+						<div class="content-block">
+							<h3>Guerilla Usability Testing</h3>
+							<p>I had an assumption of what some of the pain points were, but it wasn’t enough. I went out to a local park with beautiful scenery in hopes to find photographers similar to the persona I created. Using the task flow I was able to set up some tests for these users in order to find specific pain points in the app. Each user was provided a scenario that closely represented the task flow above.</p>
+							<p>Here is an example scenario:</p>
+							<ul class="bullets">
+								<li>1. Open the camera and lower the exposure before you take a photo of anything interesting around you, then apply a filter you like.</li>
+								<li>2. After applying the filter, I want you to make some edit changes like adjusting the contrast or temperature of the photo.</li>
+								<li>3. If you are satisfied with your changes, save the photo and share it on social media.</li>
+							</ul>
+						</div>
+						<div class="content-block">
+							<h3>Affinity Map</h3>
+							<p>After reviewing the videos of each testing session, I took down notes that included observations on user actions, comments, and thoughts. Then using affinity mapping, I grouped each pain-point into its respective category which helped me get an overall picture of the problem.</p>
+							<img src="assets/img/notes.jpeg" alt="">
+							<p class="image-desc">Notes from Usability Testing.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide whiteSlide vsco-proposals">
+		<div class="content">
+			<div class="container">
+				<div class="content-wrap">
+					<div class="section-narrow-content">
+						<div class="content-block">
+							<h2>VSCO Pain Points</h2>
+							<p>Using the results of the affinity map and usability tests, I identified specific pain points in the following areas:</p>
+							<h3>Camera</h3>
+							<p>Some users were unable to find the camera quickly at first, especially if they were pointing to a dark spot. Camera also has a lot of features with no labels leading to confusion. Users were unaware of additional options available if they swiped on the menu.</p>
+							<img src="assets/img/bad-results-1.png" alt="" class="result-graphic">
+							<h3>Edit photo tools and workflow</h3>
+							<p>Too many icons in the photo edit menu without a label, leads to a lot of guesswork and frustration. Lack of a redo button led to some frustration in users, while other features like undo and save were hidden away in a subtle navigation menu.</p>
+							<img src="assets/img/bad-results-2.png" alt="" class="result-graphic">
+							<h3>Social Sharing</h3>
+							<p>When asked to share the final photo on social media, every user ended up clicking the same wrong button that led to an unexpected result. The share button was tucked away in another menu and users had a difficult time getting to it.</p>
+							<img src="assets/img/bad-results-2.png" alt="" class="result-graphic">
+						</div>
+						<div class="content-block">
+							<h2>Crafting the Solution</h2>
+						</div>
+						<div class="content-block">
+							<h3>Lo-Fi Sketches</h3>
+							<p>After identifying the problems and pain-points, I set out to create some basic lo-fi sketches for some quick creative ideation. After multiple sketches, I was able to get a rough idea of what I assumed to work.</p>
+							<img src="assets/img/lofi-sketches.jpg" alt="">
+						</div>
+						<div class="content-block">
+							<h3>Hi-Fi Mockups</h3>
+						</div>
+						<div class="content-block">
+							<h4>Home Screen</h4>
+							<p>Some users had difficulty finding the camera during the usability test and also expressed confusion at the bottom nav icons.</p>
+							<p>Below is my proposed solution for the <strong>home screen:</strong></p>
+							<img src="assets/img/home-screen-solution.png" alt="">
+							<h4>Proposed solution changes:</h4>
+							<ul class="bullets">
+								<li>1. Enlarged the camera area to make it more noticeable.</li>
+								<li>2. Changed from “studio” to “all images” to make less ambiguous for dropdown menu and also more close to what the user was seeing.</li>
+								<li>3. Made the global feed and profile icon less abstract and more recognizable.</li>
+							</ul>
+						</div>
+						<div class="content-block">
+							<h4>Camera</h4>
+							<p>In its current state, casual photographers and newcomers to the app find it difficult to use the camera to its fullest function. One unique aspect of VSCO’s camera was the sheer amount of control you have over the camera settings, but it means very little if most users find it difficult to use</p>
+							<p>Let's look at the <strong>camera:</strong></p>
+							<img src="assets/img/camera-problem.png" alt="">
+							<img src="assets/img/camera-solution.png" alt="" class="space-top">
+							<h4>Proposed solution changes:</h4>
+							<ul class="bullets">
+								<li>1. I got rid of the quickbar and moved all of its settings inside a separate section that can be accessed with the <strong>edit button</strong> on the left.</li>
+								<li>2. Upon accessing the new section, the edit icons are presented clearly with labels.</li>
+							</ul>
+						</div>
+						<div class="content-block">
+							<h4>Photo Editing</h4>
+							<p>Abstract icons with no labels and unclear or poor navigation, two major problems with the app, could be found in the photo editing process. My goal for this screen was to make editing a fun and enjoyable process that could be done quickly and efficiently by users of all levels.</p>
+							<p>Let’s look at the <strong>photo editing screens:</strong></p>
+							<img src="assets/img/edit-problem.png" alt="">
+							<img src="assets/img/edit-solution.png" alt="" class="space-top">
+							<h4>Proposed solution changes:</h4>
+							<ul class="bullets">
+								<li>1. I got rid of the hidden menu altogether and replaced it with easy-access/quick buttons. Users could now also save/exit or undo/redo easily with the quick access buttons.</li>
+								<li>2. I made the two main screens of the editing process accessible by clicking on their respective tabs.</li>
+								<li>3. The edit menu now has larger and properly labelled icons which should make the process of making changes much easier.</li>
+							</ul>
+						</div>
+						<div class="content-block">
+							<h4>Social Sharing</h4>
+							<p>For the problem with social sharing, no heavy UI changes were needed. It turned out that all the users during the usability tests mistook the “Publish to VSCO” button as the share button. I took out the share option that was hidden away in a different menu and brought its options to a new menu that included a shortcut for publishing to VSCO.</p>
+							<p>Here is my proposed solution for <strong>social sharing:</strong></p>
+							<img src="assets/img/social-sharing.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide whiteSlide vsco-proposals">
+		<div class="content">
+			<div class="container">
+				<div class="content-wrap">
+					<div class="section-narrow-content">
+						<div class="content-block">
+						  <h2>Results</h2>
+						  <p>After completing the prototype, I found another group of six different users for my final usability test.</p>
+						  <p>The tasks were similar to the ones I assigned before my redesigns, but the results were immensely different. Frustrating and confusing moments that were dominant before were suddenly replaced with confidence and AHA moments.</p>
+						  <p>Here are the test results:</p>
+						</div>
+						<div class="content-block">
+						  <h3>Camera</h3>
+						  <img src="assets/img/camera-result.png" alt="" class="result-graphic">
+						</div>
+						<div class="content-block">
+						  <h3>Photo Edit</h3>
+						  <img src="assets/img/photo-result.png" alt="" class="result-graphic">
+						</div>
+						<div class="content-block">
+						  <h3>Social Sharing</h3>
+						  <img src="assets/img/social-result.png" alt="" class="result-graphic">
+						</div>
+						<div class="content-block">
+						  <h3>Overall</h3>
+						  <p>Users were able to complete all the tasks under a minute, which is a significant decrease in time from the previous test where users took on average 3 minutes to complete the task. All testers expressed confidence during the tasks and did not express any frustration.</p>
+						</div>
+						<div class="content-block">
+						  <h2>Conclusion</h2>
+						  <p>Before the redesigns, the process to take a photo, edit it, and share it on social networks took longer and was harder than it should’ve been due to a lot of guess work. Hopefully with my proposed solutions, users will no longer use VSCO just for the filters, but feel empowered to use the app for all their photography needs.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide blackSlide portfolio-footer">
+		<div class="content">
+			<div class="container">
+				<div class="wrap">
+					<h1><a class="alert-link" href="http://kevinkwon.io/talentinc">View my work at Talent Inc</a></h1>
+					<hr class="mid-hr">
+					<h3><a class="white-link" href="http://kevinkwon.io/">Return to home</a></h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+</body>
+</html>
