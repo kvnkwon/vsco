@@ -188,6 +188,10 @@ p {
   .portfolio-image {
     width: 80%;
   }
+
+  .image-hero {
+    display: none;
+  }
 }
 
 @media (min-width:481px) and (max-width: 1022px) {
@@ -223,5 +227,9 @@ p {
 
   .section-narrow-content {
     max-width: 80%;
+  }
+
+  .image-hero {
+    margin-top: 0;
   }
 }
